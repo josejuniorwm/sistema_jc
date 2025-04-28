@@ -8,9 +8,9 @@ Route::get('/', function () {
 
 
 Route::get('/sobre-nos', function () {
-    return 'Olá';
+    return 'sobre';
 });
 
 Route::get('/contato', function () {
-    return 'Olá';
+    return 'contato';
 });
