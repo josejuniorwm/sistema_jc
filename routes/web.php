@@ -6,6 +6,7 @@ Route::get('/', function () {
     return 'Olá';
 });
 
+Route::get('/', 'PrincipalController@principal')
 
 Route::get('/sobre-nos', function () {
     return 'sobre';
